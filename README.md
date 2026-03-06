@@ -41,7 +41,7 @@ The following metrics were employed to compare the models:
 
 ## Findings & Insight
 
-![Final Model Comparison][/images/final_tuned_models_model_comparison.png]
+![Final Model Comparison](/images/final_tuned_models_model_comparison.png)
 
 When using all available features, a tuned SVM (RBF) Model provided the best scores, balancing efficiency and coverage.
 
@@ -87,7 +87,7 @@ When decisions must be justified to stakeholders or auditors:
 
 ### Key Insights from Feature Analysis
 
-![Feature Importances and Coefficients][/images/feature_importance_and_coefficients.png]
+![Feature Importances and Coefficients](/images/feature_importance_and_coefficients.png)
 
 1. **Macroeconomic economic conditions dominate** `euribor3m` adn `cons.conf.idx` are strongest numerical predictors. Campaigns launched during periods of higher interest rates and consumer confidence yield better conversion rates.
 2. **Prior campaign success is strongest client-level signal.** Clients who subscribed in a previous campaign are highest-value re-engagement targets in any scenario.
